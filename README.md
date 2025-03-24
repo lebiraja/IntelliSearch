@@ -127,6 +127,11 @@ We welcome contributions!
 
 ---
 
+## **🤝 Contributing**  
+Feel free to contribute by improving the model, dataset, or adding new features.  
+
+Happy coding! 🚀  
+
 
 ---
 
