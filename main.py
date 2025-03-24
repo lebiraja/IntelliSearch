@@ -6,8 +6,8 @@ from ml_model import rank_results
 
 # Load API keys from .env file
 load_dotenv()
-API_KEY = "AIzaSyD50sjuTCEKhe6FFM06_lf2SXecWBpCV8Q"
-CX_KEY = "74c299e208bb94cbc"
+API_KEY = "add yours"
+CX_KEY = "add yours"
 
 
 def main():
