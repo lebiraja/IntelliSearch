@@ -1,10 +1,8 @@
-
-
-# **IntelliSearch_CLI** 🚀  
-_A Smart Context-Aware CLI Search Assistant using NLP and Machine Learning._
+# **IntelliSearch** 🚀  
+_A Smart Context-Aware Search Assistant using NLP and Machine Learning._
 
 ## **📌 Project Overview**  
-IntelliSearch_CLI is an AI-powered command-line tool that provides **summarized search results** using Google Custom Search API. It applies **Natural Language Processing (NLP)** and **Machine Learning (ML)** to refine, rank, and present search results in a user-friendly way.  
+IntelliSearch is an AI-powered search tool that provides **summarized search results** using Google Custom Search API. It applies **Natural Language Processing (NLP)** and **Machine Learning (ML)** to refine, rank, and present search results in a user-friendly way. The application now features a **Streamlit-based UI** for an enhanced user experience.
 
 ---
 
@@ -13,7 +11,7 @@ IntelliSearch_CLI is an AI-powered command-line tool that provides **summarized 
 ✅ **NLP Processing** – Extracts key insights from search results.  
 ✅ **Summarization** – Generates concise summaries of the search results.  
 ✅ **Machine Learning Ranking** – Ranks search results based on relevance.  
-✅ **Command Line Interface (CLI)** – Simple, lightweight, and fast.  
+✅ **User Interface (UI)** – A web-based UI built with **Streamlit** for ease of use.  
 
 ---
 
@@ -24,14 +22,15 @@ IntelliSearch_CLI is an AI-powered command-line tool that provides **summarized 
 🔹 **NumPy & Scikit-learn** – Machine Learning ranking  
 🔹 **dotenv** – Secure API key storage  
 🔹 **Requests** – HTTP requests for API calls  
+🔹 **Streamlit** – Web-based UI framework  
 
 ---
 
 ## **📂 Project Structure**
 ```
-IntelliSearch_CLI/
+IntelliSearch/
 │── .env                   # Stores API keys (DO NOT SHARE)
-│── main.py                # Runs the CLI application
+│── app.py                # Runs the Streamlit UI application
 │── search_engine.py       # Handles web search
 │── nlp_processing.py      # Processes search results using NLP
 │── ml_model.py            # Machine learning ranking
@@ -45,8 +44,8 @@ IntelliSearch_CLI/
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/your-username/IntelliSearch_CLI.git
-cd IntelliSearch_CLI
+git clone https://github.com/your-username/IntelliSearch.git
+cd IntelliSearch
 ```
 
 ### **2️⃣ Create a Virtual Environment (Optional but Recommended)**
@@ -77,35 +76,24 @@ CX_KEY=your_custom_search_engine_id_here
 ## **🚀 Usage**
 Run the application:
 ```bash
-python main.py
+streamlit run app.py
 ```
 
-### **Example Interaction**
-```bash
-🔍 Enter search query (or type 'exit' to quit): AI in Healthcare
-
-🔎 Searching, please wait...
-
-1. How AI is Transforming Healthcare
-   🔗 https://example.com/article1
-   📄 AI in healthcare is revolutionizing diagnosis, treatment, and patient care...
-
-2. The Future of AI in Medicine
-   🔗 https://example.com/article2
-   📄 Artificial Intelligence (AI) is rapidly changing the landscape of modern medicine...
-```
-
-To **exit**, type `exit`.
+### **Using the Web Interface**
+1. Open the **Streamlit app** in your browser.
+2. Enter your **search query** in the input field.
+3. Click the **Search** button to retrieve summarized and ranked search results.
+4. The results will be displayed in an interactive format with titles, links, and summaries.
 
 ---
 
 ## **💡 How It Works**
-1. **Takes a user input query** from the terminal.  
+1. **Takes a user input query** from the UI.  
 2. **Fetches web search results** from Google Custom Search API.  
 3. **Processes the text** using NLP to extract key information.  
 4. **Summarizes the results** to display concise insights.  
 5. **Ranks the search results** using an ML model.  
-6. **Displays output** in an easy-to-read format in the terminal.  
+6. **Displays output** in an interactive web-based UI.  
 
 ---
 
@@ -130,8 +118,4 @@ We welcome contributions!
 ## **🤝 Contributing**  
 Feel free to contribute by improving the model, dataset, or adding new features.  
 
-Happy coding! 🚀  
-
-
----
-
+Happy coding! 🚀
