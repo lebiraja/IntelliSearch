@@ -111,5 +111,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Built with ❤️ by [Lebi Raja](https://github.com/lebiraja)
+
 
