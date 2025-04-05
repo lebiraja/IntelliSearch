@@ -111,5 +111,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
+## **🤝 Contributing**  
+Feel free to contribute by improving the model, dataset, or adding new features.  
+
+Happy coding! 🚀  
+
+---
+
+
 
 
