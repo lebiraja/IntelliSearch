@@ -2,7 +2,7 @@
 
 IntelliSearch is a powerful, interactive chatbot built using Streamlit that combines the capabilities of real-time web search and a local large language model (LLM) to deliver highly relevant, context-aware responses. This application leverages Google Custom Search and the DeepSeek-R1 model from Ollama to simulate an intelligent virtual assistant.
 
-🔗 **GitHub Repository**: [https://github.com/lebiraja/IntelliSearch](https://github.com/lebiraja/IntelliSearch)
+
 
 ---
 
